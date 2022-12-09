@@ -1,5 +1,4 @@
-import { assert } from "https://deno.land/std@0.94.0/testing/asserts.ts";
+const c1 = 1;
+let v1: typeof c1 = 1;
 
-Deno.test("Hello Test", () => {
-  assert("Hello");
-});
+const c2 = "hello";
